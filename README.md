@@ -93,19 +93,30 @@ heroku addons:create proximo:development
 	"stop_loss_percent": "1.5"
 }
 ```
-3.) 
+3.) Description of alarm config file:
 
 > **key**: _key to acces your webhook server_
+> 
 > **echange**: _binance-futures only_
+> 
 > **symbol**: _BTCUSDT, ETHUSDT, etc._
+> 
 > **type**: _limit or market_
+> 
 > **side**: _sell or buy_
+> 
 > **qty**: _total quantity size (pay attention to leverage and size in futures)._
+> 
 > **price**: _price order required for limit order_
+> 
 > **close_positions**: _true or false_
+> 
 > **cancel_orders**: _true or false_
+> 
 > **order_mode**: _Both (for Stop Loss & Take Profit Orders)_
+> 
 > **take_profit_percent**: _take profit percentage (be careful to use float lika 3.5)_
+> 
 > **stop_loss_percent**: _stop loss percentage (be careful to use float lika 1.5)_
 
 
