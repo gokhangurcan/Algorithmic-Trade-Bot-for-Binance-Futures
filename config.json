@@ -1,0 +1,12 @@
+{
+    "KEY": 12345,
+    "exchange": {
+        "binance-futures": {
+            "ENABLED": true,
+            "API_KEY": "Your API Key",
+            "API_SECRET": "Your Secret Key",
+            "TESTNET": false
+        }
+    },
+    "PROXIMO_URL": "Your Proximo URL --> http://proxy:PROXIMO_URL.proximo.io"
+}
